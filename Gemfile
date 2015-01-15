@@ -3,8 +3,12 @@ source 'https://rubygems.org'
 gem 'bundler'
 gem 'rake'
 
-gem 'lotusrb',      '0.2.0'
-gem 'lotus-model', '~> 0.2'
+gem 'lotusrb', github: "lotus/lotus"
+gem 'lotus-model'
+
+gem 'sqlite3'
+
+gem 'nokogiri'
 
 group :test do
   gem 'minitest'

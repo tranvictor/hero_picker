@@ -1,5 +1,5 @@
 require 'lotus/model'
-Dir["#{ __dir__ }/**/*.rb"].each { |file| require_relative file }
+Dir["#{ __dir__ }/hero_picker/**/*.rb"].each { |file| puts file; require file }
 
 Lotus::Model.configure do
   # Database adapter
@@ -20,5 +20,5 @@ Lotus::Model.configure do
   ##
   # Database mapping
   #
-  # mapping "#{__dir__}/hero_picker/config/mapping"
+  mapping "#{__dir__}/config/mapping"
 end.load!

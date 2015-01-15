@@ -1,3 +1,5 @@
+require_relative './stat'
+
 module HeroPicker
   class HeroVsHeroStat < Stat
     def self.data

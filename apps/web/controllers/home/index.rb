@@ -4,7 +4,7 @@ module Web::Controllers::Home
     expose :heroes
 
     def call(params)
-      @heroes = HeroPicker::HeroRepository.all_heroes
+      @heroes = ::HeroPicker::HeroRepository.all_heroes
     end
   end
 end
