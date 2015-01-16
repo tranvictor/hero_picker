@@ -1,4 +1,4 @@
-require 'uri'
+require 'open-uri'
 
 module HeroPicker
   module Command
