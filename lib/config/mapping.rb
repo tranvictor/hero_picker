@@ -24,4 +24,6 @@ collection :heroes do
 
   attribute :id,          Integer
   attribute :name,        String
+  attribute :dotamax_id,  String
+  attribute :image,       String
 end

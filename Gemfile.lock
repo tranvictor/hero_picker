@@ -1,6 +1,5 @@
-GIT
-  remote: git://github.com/lotus/lotus.git
-  revision: 89a4ace0e39c078fad8fb19a674969d8ee7240f4
+PATH
+  remote: /Users/victor/lotus
   specs:
     lotusrb (0.2.0)
       dotenv (~> 1.0)

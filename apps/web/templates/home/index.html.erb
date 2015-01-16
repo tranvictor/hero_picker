@@ -1,4 +1,5 @@
-<h1>Heroes</h1>
+<h1>Heroes: <%= heroes.size %></h1>
 <% heroes.each do |hero| %>
   <p><%= hero.name %></p>
+  <img src="<%= hero.image %>">
 <% end %>

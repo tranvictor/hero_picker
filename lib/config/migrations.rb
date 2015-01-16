@@ -8,6 +8,8 @@ module HeroPicker
       db.create_table! :heroes do
         primary_key :id
         String      :name
+        String      :dotamax_id
+        String      :image
       end
     end
   end

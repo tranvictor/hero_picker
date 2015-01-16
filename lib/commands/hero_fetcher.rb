@@ -10,6 +10,7 @@ module HeroPicker
         doc.css('.hero-list-hero').each do |hero_div|
           attributes = extract_attributes(hero_div)
           p attributes
+          HeroRepository.persist(Hero.new(attributes))
         end
       end
 

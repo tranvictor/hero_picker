@@ -3,7 +3,8 @@ source 'https://rubygems.org'
 gem 'bundler'
 gem 'rake'
 
-gem 'lotusrb', github: "lotus/lotus"
+gem 'lotusrb', path: '/Users/victor/lotus'
+
 gem 'lotus-model'
 
 gem 'sqlite3'

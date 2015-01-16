@@ -1,7 +1,7 @@
 module HeroPicker
   class Hero
     include Lotus::Entity
-    attributes :name
+    attributes :name, :dotamax_id, :image
 
   end
 end
